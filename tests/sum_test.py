@@ -21,7 +21,7 @@ class TestSum(unittest.TestCase):
     def test_with_tupple(self):
         data = (1, 2, 3, 4, 5)
         result = sum(data)
-        self.assertEqual(result, 14)
+        self.assertEqual(result, 15)
 
     def test_fail_with_string(self):
         data = [1, 2, '3', '4', '5']
